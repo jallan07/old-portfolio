@@ -55,9 +55,50 @@ header {
     transition: all 0.3s ease 0s;
 }
 
-.nav-links li a:hover {
+#about {
+    position: relative;
+    z-index: 100;
+}
+
+#about:hover::after {
+    content: "about";
+    position: absolute;
+    top: .7rem;
+    left: .6rem;
+    color: #F7DE59;
+    transform: rotate(-20deg);
+}
+
+#services {
+    position: relative;
+    z-index: 100;
+}
+
+#services:hover::after {
+    content: "services";
+    position: absolute;
+    top: .7rem;
+    left: .6rem;
     color: #F7DE59;
 }
+
+#projects {
+    position: relative;
+    z-index: 100;
+}
+
+#projects:hover::after {
+    content: "projects";
+    position: absolute;
+    top: .7rem;
+    left: .6rem;
+    color: #F7DE59;
+    transform: rotate(20deg);
+}
+
+/* .nav-links li a:hover {
+    color: #F7DE59;
+} */
 
 button {
     padding: 9px 25px;
