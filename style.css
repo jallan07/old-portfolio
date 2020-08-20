@@ -63,10 +63,9 @@ header {
 #about:hover::after {
     content: "about";
     position: absolute;
-    top: .7rem;
+    top: 1.1rem;
     left: .6rem;
     color: #F7DE59;
-    transform: rotate(-20deg);
 }
 
 #services {
@@ -77,10 +76,9 @@ header {
 #services:hover::after {
     content: "services";
     position: absolute;
-    top: .7rem;
+    top: 1.1rem;
     left: .6rem;
     color: #F7DE59;
-    transform: rotate(-20deg);
 }
 
 #projects {
@@ -91,10 +89,9 @@ header {
 #projects:hover::after {
     content: "projects";
     position: absolute;
-    top: .7rem;
+    top: 1.1rem;
     left: .6rem;
     color: #F7DE59;
-    transform: rotate(0deg);
 }
 
 /* .nav-links li a:hover {
