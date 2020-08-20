@@ -80,6 +80,7 @@ header {
     top: .7rem;
     left: .6rem;
     color: #F7DE59;
+    transform: rotate(-20deg);
 }
 
 #projects {
@@ -93,7 +94,7 @@ header {
     top: .7rem;
     left: .6rem;
     color: #F7DE59;
-    transform: rotate(20deg);
+    transform: rotate(0deg);
 }
 
 /* .nav-links li a:hover {
