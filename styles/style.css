@@ -133,6 +133,10 @@ form {
     transform: scale(1.075);
 }
 
+.list-group-item {
+    font-size: 18px;
+}
+
 /* Footer */
 footer {
     background: #ECF0F1;
