@@ -139,8 +139,11 @@ form {
 	transform: scale(1.075);
 }
 
-.list-group-item {
+.card-header h2 button {
 	font-size: 18px;
+}
+.card-header span {
+	font-size: 14px;
 }
 
 /* Footer */
@@ -167,6 +170,12 @@ footer {
 
 	.main-content {
 		font-size: 18px;
+	}
+	.card-header h2 button {
+		font-size: 16px;
+	}
+	.card-header span {
+		font-size: 12px;
 	}
 }
 
