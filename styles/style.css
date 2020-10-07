@@ -139,6 +139,26 @@ form {
 	transform: scale(1.075);
 }
 
+button[aria-expanded="false"]:after {
+	content: "\02795"; /* Unicode character for "plus" sign (+) */
+	position: relative;
+	color: #0d141a;
+	font-size: 14px;
+	line-height: 22px;
+	left: 5px;
+	top: calc(50% - 10px);
+}
+button[aria-expanded="true"]:after {
+	content: "\2796"; /* Unicode character for "minus" sign (-) */
+	position: relative;
+	color: #0d141a;
+	font-size: 14px;
+	line-height: 22px;
+	left: 5px;
+	top: calc(50% - 10px);
+	transform: rotate(45deg);
+}
+
 .card-header h2 button {
 	font-size: 18px;
 }
