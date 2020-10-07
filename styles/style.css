@@ -152,6 +152,10 @@ form {
 	padding: 1.25rem;
 }
 
+.card-story ul {
+	padding-left: 1.25rem;
+}
+
 /* Footer */
 footer {
 	background: #ecf0f1;
