@@ -139,7 +139,12 @@ form {
 	transform: scale(1.075);
 }
 
-button[aria-expanded="false"]:after {
+/* Accordion on Portfilio Page */
+.accordion-section {
+	width: 100%;
+	margin: 0 auto;
+}
+.card button[aria-expanded="false"]:after {
 	content: "\02795"; /* Unicode character for "plus" sign (+) */
 	position: relative;
 	color: #0d141a;
@@ -148,7 +153,7 @@ button[aria-expanded="false"]:after {
 	left: 5px;
 	top: calc(50% - 10px);
 }
-button[aria-expanded="true"]:after {
+.card button[aria-expanded="true"]:after {
 	content: "\2796"; /* Unicode character for "minus" sign (-) */
 	position: relative;
 	color: #0d141a;
@@ -195,11 +200,18 @@ footer {
 @media screen and (max-width: 768px) {
 	.main-container {
 		/* I kept 1% margin on the sides here because I like the aesthetic of it, even though the readme asked for 0 space at this breakpoint*/
-		margin: 0 2% 55% 2%;
+		margin: 0 auto 6% auto;
+		width: 90%;
 	}
-
 	.main-content {
 		font-size: 18px;
+	}
+	.accordion-section {
+		width: 100%;
+	}
+	.accordion.container {
+		width: 100%;
+		margin: 0 auto;
 	}
 	.card-header h2 button {
 		font-size: 16px;
@@ -207,9 +219,18 @@ footer {
 	.card-header span {
 		font-size: 12px;
 	}
+	.card button[aria-expanded="false"]:after {
+		font-size: 10px;
+	}
+	.card button[aria-expanded="true"]:after {
+		font-size: 10px;
+	}
+	.recent-work img:hover {
+		transform: none;
+	}
 }
 
-/* 425 Break point */
+/* 425 Break point
 @media screen and (max-width: 425px) {
 	.main-container {
 		margin: 10% 0 20% 0;
@@ -218,4 +239,4 @@ footer {
 	.main-content {
 		font-size: 16px;
 	}
-}
+} */
