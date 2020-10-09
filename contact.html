@@ -79,7 +79,7 @@
 						<h2>Let's [git] in touch!</h2>
 					</div>
 					<div class="main-content">
-						<form class="needs-validation" novalidate>
+						<form class="needs-validation" action="form-handler.php" novalidate>
 							<!-- Row 1 in the contact form -->
 							<div class="form-row">
 								<div class="col-md-6 mb-3">
@@ -89,6 +89,7 @@
 										class="form-control"
 										id="fname"
 										placeholder="Ahsoka"
+										name="firstname"
 										required
 									/>
 									<div class="valid-feedback">Looks good!</div>
@@ -100,6 +101,7 @@
 										class="form-control"
 										id="lname"
 										placeholder="Tano"
+										name="lastname"
 										required
 									/>
 									<div class="valid-feedback">Looks good!</div>
@@ -115,6 +117,7 @@
 										class="form-control"
 										id="email"
 										placeholder="trusttheforce@email.com"
+										name="email"
 										required
 									/>
 									<div class="valid-feedback">Looks good!</div>
@@ -126,6 +129,7 @@
 										class="form-control"
 										id="phone"
 										placeholder="8045554739"
+										name="phone"
 										required
 									/>
 									<div class="valid-feedback">Looks good!</div>
@@ -140,6 +144,7 @@
 										class="form-control"
 										id="message"
 										placeholder="I am no Jedi..."
+										name="message"
 										rows="3"
 									></textarea>
 								</div>
