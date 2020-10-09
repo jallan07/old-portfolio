@@ -277,6 +277,15 @@ footer {
 	.recent-work img:hover {
 		transform: none;
 	}
+	.img-portfolio {
+		opacity: 0.6;
+	}
+	.img-middle {
+		opacity: 1;
+	}
+	.img-bottom {
+		opacity: 0.95;
+	}
 }
 
 /* 425 Break point
