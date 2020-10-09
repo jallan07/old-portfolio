@@ -77,6 +77,16 @@ main {
 	grid-template-rows: 1fr auto;
 	flex: 1 0 auto;
 }
+.homepage-hero {
+	padding-top: 12%;
+	height: 80vh;
+}
+
+/* Main heading on home page */
+.hero-heading {
+	color: white;
+	margin: 5% 0;
+}
 
 .container {
 	margin: 0 10%;
@@ -117,7 +127,7 @@ form {
 	margin-right: 9%;
 }
 
-/* Social links on the portfolio page */
+/* Social links on the about page */
 .social-links a {
 	font-size: 2rem;
 	color: #2d3e4f;
@@ -250,10 +260,17 @@ footer {
 	.main-container {
 		/* I kept 1% margin on the sides here because I like the aesthetic of it, even though the readme asked for 0 space at this breakpoint*/
 		margin: 0 auto 6% auto;
-		width: 90%;
 	}
 	.main-content {
 		font-size: 18px;
+	}
+	.homepage-hero {
+		height: 60vh;
+		padding-top: 0;
+	}
+	.hero-heading {
+		margin-top: 33%;
+		font-size: 36px;
 	}
 	.accordion-section {
 		width: 100%;
