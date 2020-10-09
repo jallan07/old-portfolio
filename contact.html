@@ -13,6 +13,7 @@
 		/>
 
 		<!-- Styles -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<link
 			rel="stylesheet"
 			href="https://bootswatch.com/4/flatly/bootstrap.css"
@@ -69,7 +70,11 @@
 		<main class="container-fluid">
 			<!-- Contact Me section -->
 			<section class="row wrapper">
-				<section class="container main-container col-md-6 col-xs-12 offset-1">
+				<section
+					class="container main-container col-md-6 col-xs-12 offset-1"
+					data-aos="zoom-in"
+					data-aos-duration="1000"
+				>
 					<div class="main-heading">
 						<h2>Let's [git] in touch!</h2>
 					</div>
@@ -174,5 +179,9 @@
 			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
 			crossorigin="anonymous"
 		></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>
