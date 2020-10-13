@@ -1,19 +1,55 @@
-# Responsive Portfolio // Built with Bootstrap v4.5.2
+# Responsive Portfolio
 
-In this front-end web design project, I built a responsive 3-page website using the Bootstrap framework/UI kit. All images on the Portfolio page are real projects created by Josh Allan (myself), and link to live, deployed web applications.
+All images on the Portfolio page are real projects created by me (Josh Allan), and link to live, deployed web applications. Check it out!
 
+---
 
 ## Resources
 
-* Background vector - freepik - https://www.freepik.com/
+- Background vector - freepik - https://www.freepik.com/
 
-* Heading font - Alta - https://fonts.google.com/
+- Heading font - Alata - https://fonts.google.com/specimen/Alata?query=alata
 
-* Icon font - Font Awesome - https://fontawesome.com/
+- Icon font - Font Awesome - https://fontawesome.com/
 
+---
 
-## Tests
+## Technologies
 
-* HTML code has been validated by W3C's markup validation service (https://validator.w3.org/)
+- Animate on Scroll Library - https://michalsnik.github.io/aos/
 
-* Links have been tested to ensure no broken links exist.
+- Bootstrap Framework
+
+- HTML/CSS
+
+---
+
+## Screenshots (Mobile)
+
+#### Homepage
+
+![Homepage - Mobile](Assets/screenshots/homepage-mobile.png)
+
+#### About
+
+![About - Mobile](Assets/screenshots/about-mobile.png)
+
+#### Portfolio
+
+![Portfolio - Mobile](Assets/screenshots/portfolio-mobile.png)
+
+---
+
+## Screenshots (Desktop)
+
+#### Homepage
+
+![Homepage - Mobile](Assets/screenshots/homepage-desktop.png)
+
+#### About
+
+![About - Mobile](Assets/screenshots/about-desktop.png)
+
+#### Portfolio
+
+![Portfolio - Mobile](Assets/screenshots/portfolio-desktop.png)
